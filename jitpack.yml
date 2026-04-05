@@ -1,0 +1,7 @@
+jdk:
+  - openjdk17
+
+install:
+  - curl -L https://github.com/com-lihaoyi/mill/releases/latest/download/mill > mill
+  - chmod +x mill
+  - ./mill layoutz.__.publishM2Local
