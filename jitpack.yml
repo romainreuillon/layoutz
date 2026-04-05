@@ -2,4 +2,4 @@ jdk:
   - openjdk17
 
 install:
-  - ./mill layoutz.__.publishM2Local
+  - ./mill layoutz.jvm.3_3_7.publishM2Local
